@@ -1,0 +1,33 @@
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row; /* Default to row layout */
+    gap: 20px; /* Add spacing between items */
+  
+      height: auto; /* Remove fixed height */
+  
+      padding: 20px; /* Add breathing room */
+  
+    }
+
+    .contentSide {
+        width: 100%; /* Full width on mobile */
+        max-width: 320px; /* Prevent over-stretching */
+        height: auto; /* Flexible height */
+        min-height: 315px; /* Minimum height */
+    
+        border-radius: 25px;
+          background-color: rgba(112, 112, 112, 0.31);
+      }
+    
+      .contentMiddle {
+        width: 100%; /* Full width on mobile */
+        max-width: 438px; /* Prevent over-stretching */
+        height: auto; /* Flexible height */
+        min-height: 315px; /* Minimum height */
+    
+        border-radius: 25px;
+          background-color: rgba(35, 35, 35, 0.77);
+      }

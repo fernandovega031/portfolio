@@ -1,0 +1,17 @@
+.contentSide {
+    width: 100%; /* Full width on mobile */
+    max-width: 320px; /* Prevent over-stretching */
+    height: auto; /* Flexible height */
+    min-height: 315px; /* Minimum height */
+
+    border-radius: 25px;
+  }
+
+  .contentMiddle {
+    width: 100%; /* Full width on mobile */
+    max-width: 438px; /* Prevent over-stretching */
+    height: auto; /* Flexible height */
+    min-height: 315px; /* Minimum height */
+
+    border-radius: 25px;
+  }

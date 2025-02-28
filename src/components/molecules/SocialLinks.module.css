@@ -1,0 +1,8 @@
+.IconContainerLine {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+    width: 100%;
+    height: 100%;
+  }

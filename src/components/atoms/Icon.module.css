@@ -1,0 +1,29 @@
+
+.Icon {
+  
+
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+
+    border-radius: 5px;
+  
+  }
+
+
+
+  .IconContainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 70px; /* Smaller logos */
+    height: 70px;
+
+    box-shadow: 7px 5px 6.9px rgba(0, 0, 0, 0.44);
+  	border-radius: 20px;
+
+  }
+
+

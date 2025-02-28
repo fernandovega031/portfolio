@@ -1,0 +1,13 @@
+.textContainer{
+    width: 500px; 
+    height: 450px; 
+    padding: 60px;
+    background: linear-gradient(215deg, #FDFDFD 0%, #F6F6F6 100%); 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 49px; 
+    justify-content: center;
+    align-items: center; 
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 30px;
+}

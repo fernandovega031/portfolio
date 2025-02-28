@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    margin: 40px 100px 0px 100px;
+
+    font-size: 28px; /* Reduced from 48px */
+  }
+
+  .nameLabel{
+    width: 400px; /* Allow flexible width */
+    max-width: 400px; /* Prevent overflow */
+   margin-left: 40px;
+    display: inline-block;
+
+  }

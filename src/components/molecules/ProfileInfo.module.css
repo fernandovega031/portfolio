@@ -1,0 +1,50 @@
+.HeroSection {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+
+    background-image: url('../../assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .TextContainer {
+    margin-left: 40px;
+    max-width: 1200px;
+    margin-bottom: 30px;
+  }
+  
+  .NameLine{
+    display: flex;
+        align-items: center;
+        gap: 10px;
+  }
+  
+  .theLine {
+  
+    width: 60px;
+    border-top: 3px solid #000;
+    box-sizing: border-box;
+  
+  }
+  
+  .NameUser {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Helvetica Light';
+    color: black;
+  }
+  
+  .TitleUser {
+    font-size: 64px;
+    color: black;
+  }
+  
+  .DescriptionUser {
+    font-size: 20px;
+    font-weight: bold;
+    color: #434343;
+  }

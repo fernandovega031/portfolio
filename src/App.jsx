@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import Home from './components/pages/Home.jsx'
 import TruckBurger from './components/pages/TruckBurger.jsx'
@@ -16,7 +16,7 @@ function App() {
 
     <>
   <ScrollToTop />
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<PersistentLayout />}>
           <Route index element={<Home />} />
           <Route path="ASLingo" element={<ASLingo />} />

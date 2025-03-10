@@ -10,7 +10,7 @@ const Icon = ({ src, alt , websrc, delayIcon, position}) => {
       initial={{ y: position }} // Inicia fuera de la pantalla (derecha)
       animate={{ y: 0 }}        // Se desliza a la posición normal
       exit={{ y: "-100vw" }}     // Se desliza hacia la izquierda al salir
-     transition={{ type: "spring",  duration: 1, delay: delayIcon }}>
+     transition={{ type: "spring",  duration: 1.4, delay: delayIcon }}>
     <motion.a  
             whileHover={{ y: -10 }} // Solo este div se mueve en hover
             transition={{ duration: 0.3, ease: "easeOut" }} // No afecta el slide

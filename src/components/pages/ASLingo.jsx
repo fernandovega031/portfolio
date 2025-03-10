@@ -1,7 +1,12 @@
-
+import Portfolio3Page from "../templates/Portfolio3Page.jsx";
 
 const ASLingo = () => {
-  return <h1>Soy ASLingo</h1>;
+  return (
+    <>
+<Portfolio3Page />
+
+</>
+  );
 };
 
 export default ASLingo;

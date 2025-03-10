@@ -15,7 +15,7 @@ const ProfileInfo = () => {
       <motion.div initial={{ opacity: 0, y: 50 }}  // Inicia invisible y desplazado hacia abajo
       animate={{ opacity: 1, y: 0 }}   // Se hace visible y sube
       exit={{ opacity: 0, y: -50 }}    // Se desvanece y sube al salir
-      transition={{ duration: 0.9, ease: "easeOut", delay : .5 }}  // Animación suave
+      transition={{ duration: 1, ease: "easeOut", delay : .5 }}  // Animación suave
       className={styles.TextContainer}>
 
       <div className={styles.NameLine}>
@@ -23,9 +23,9 @@ const ProfileInfo = () => {
       <h2 className={styles.NameUser}>Fernando Vega</h2>
       </div>
       <h3 className={styles.TitleUser}>UI Designer / </h3>
-      <h3 className={styles.TitleUser}>Front End Programmer</h3>
+      <h3 className={styles.TitleUser}>Front End Developer</h3>
       <p className={styles.DescriptionUser}>
-        <strong>Fernando Vega</strong> is a Mexico-based UI Designer & Front End Programmer, who has a
+        <strong>Fernando Vega</strong> is a Mexico-based UI Designer & Front End Developer, who has a
         creative and proactive approach, seeking new challenges that allow him to showcase his best
         qualities and overcome complex obstacles.
       </p>

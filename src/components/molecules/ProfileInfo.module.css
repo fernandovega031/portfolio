@@ -4,7 +4,7 @@
     align-items: flex-end;
     justify-content: center;
     gap: 50px;
-    padding: 50px;
+    padding: 40px 100px;
 
     background-image: url('../../assets/Background.png');
     background-repeat: no-repeat;
@@ -15,36 +15,37 @@
     margin-left: 40px;
     max-width: 1200px;
     margin-bottom: 30px;
+    padding-right: 280px;
   }
   
   .NameLine{
     display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
   }
   
   .theLine {
   
     width: 60px;
-    border-top: 3px solid #000;
+    border-top: 2px solid #000;
     box-sizing: border-box;
   
   }
   
   .NameUser {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Helvetica Light';
     color: black;
   }
   
   .TitleUser {
-    font-size: 64px;
+    font-size: 58px;
     color: black;
   }
   
   .DescriptionUser {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #434343;
   }

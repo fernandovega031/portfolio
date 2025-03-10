@@ -10,17 +10,17 @@ const SocialLinks = ({ position}) => {
       <Icon src={LinkedInPhoto} 
       alt="LinkedIn" 
       websrc={'https://www.linkedin.com/in/fernandovega031'}
-      delayIcon={'0.5'}
+      delayIcon={'1.2'}
       position={position}/>
       <Icon src={MailPhoto} 
       alt="Mail" 
       websrc={'mailto:fernandovega031@gmail.com?subject=Pongamonos en Contacto&body=Hola, quiero ponerme en contacto contigo.'}
-      delayIcon={'0.7'}
+      delayIcon={'1.5'}
       position={position}/>
       <Icon src={BehancePhoto} 
       alt="Behance" 
       websrc={'https://www.behance.net/josfevegagu/projects'} 
-      delayIcon={'0.9'}
+      delayIcon={'1.7'}
       position={position}/>
     </div>
   );

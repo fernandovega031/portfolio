@@ -22,10 +22,10 @@ function App() {
 
         <Route path="/" element={<PersistentLayout />}>
           <Route index element={<Home />} />
+          <Route path="aslingo" element={<ASLingo />} />
           <Route path="truckburger" element={<TruckBurger />} />
           <Route path="myspace" element={<MySpace />} />
-          <Route path="aslingo" element={<ASLingo />} />
-          <Route path="gallery" element={<Gallery />} />
+
         </Route>
       </Routes>
   

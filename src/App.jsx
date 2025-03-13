@@ -25,6 +25,7 @@ function App() {
           <Route path="aslingo" element={<ASLingo />} />
           <Route path="truckburger" element={<TruckBurger />} />
           <Route path="myspace" element={<MySpace />} />
+          <Route path="gallery" element={<Gallery />} />
 
         </Route>
       </Routes>

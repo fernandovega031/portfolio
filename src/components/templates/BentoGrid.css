@@ -1,0 +1,94 @@
+/* Contenedor principal */
+.bento-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 16px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Estilo base para las tarjetas */
+  .bento-item {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Efecto hover */
+  .bento-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Diferentes tamaños de tarjetas */
+  .large {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+  }
+
+  .long {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+  }
+  
+  .medium {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+  }
+  
+  .small {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+  }
+  
+
+  
+  /* Estilos de botones */
+  .cta-button {
+    background: #FF0069;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background: #D300C5;
+  }
+  
+  /* Tarjetas de color */
+  .purple {
+    background: #a395ff;
+    color: white;
+  }
+  
+  .blue {
+    background: #74bbea;
+  }
+  
+  .yellow {
+    background: #ffda45;
+  }
+  
+  .red {
+    background: #ff9387;
+  }
+  
+  /* Imagenes */
+  .imgLarge {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }

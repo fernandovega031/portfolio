@@ -11,6 +11,7 @@ const Portfolio = () => {
         <PortfolioContainer path="/ASLingo" src={ASLingo} alt={"ASLingo's Portfolio"}/>
         <PortfolioContainer path="/truckburger" src={TruckBurger} alt={"Truck Burger's Portfolio"}/>
         <PortfolioContainer path="/myspace" src={MySpace} alt={"My Space's Portfolio"}/>
+        <PortfolioContainer path="/gallery" src={Gallery} alt={"My Gallery"}/>
       </section>
     );
   };

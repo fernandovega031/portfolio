@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Header from "../organisms/Header.jsx";
-import Footer from "../organisms/Footer.jsx";
 import main from "../../assets/MySpace/Main.png";
 import story1 from "../../assets/MySpace/Story1.png";
 import story2 from "../../assets/MySpace/Story2.png";

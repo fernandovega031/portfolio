@@ -1,9 +1,9 @@
-import Portfolio3Page from "../templates/Portfolio3Page.jsx";
+import ASLingoPage from "../templates/ASLingoPage.jsx";
 
 const ASLingo = () => {
   return (
     <>
-<Portfolio3Page />
+<ASLingoPage />
 
 </>
   );

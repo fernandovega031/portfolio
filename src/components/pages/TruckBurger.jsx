@@ -1,12 +1,12 @@
 
-import PortfolioPage from "../templates/PortfolioPage.jsx";
+import TruckBurgerPage from "../templates/TruckBurgerPage.jsx";
 
 
 
 const TruckBurger = () => {
   return (
     <>
-<PortfolioPage />
+<TruckBurgerPage />
 
 </>
   );

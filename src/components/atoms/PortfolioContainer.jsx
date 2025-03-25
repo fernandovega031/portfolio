@@ -9,7 +9,7 @@ const PortfolioContainer = ({path, src , alt, onClick}) => {
     whileHover={{ y: -10 }} // Mueve hacia arriba en hover
     transition={{ type: "spring", stiffness: 100 }}
     className={styles.contentMiddle} src={src} alt={alt}
-    onClick={onClick} />;
+    onClick={onClick} />
 
     </Link>
   };

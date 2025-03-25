@@ -1,10 +1,10 @@
-import Portfolio2Page from "../templates/Portfolio2Page";
+import MySpacePage from "../templates/MySpacePage.jsx";
 
 
 const MySpace = () => {
     return (
       <>
-  <Portfolio2Page />
+  <MySpacePage />
   
   </>
     );

@@ -22,10 +22,10 @@ const ProfileInfo = () => {
       <div className={styles.theLine}></div>
       <h2 className={styles.NameUser}>Fernando Vega</h2>
       </div>
-      <h3 className={styles.TitleUser}>UI Designer / </h3>
+      <h3 className={styles.TitleUser}>Product Designer / </h3>
       <h3 className={styles.TitleUser}>Front End Developer</h3>
       <p className={styles.DescriptionUser}>
-        <strong>Fernando Vega</strong> is a Mexico-based UI Designer & Front End Developer, who has a
+        <strong>Fernando Vega</strong> is a Mexico-based Product Designer & Front End Developer, who has a
         creative and proactive approach, seeking new challenges that allow him to showcase his best
         qualities and overcome complex obstacles.
       </p>

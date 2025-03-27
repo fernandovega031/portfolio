@@ -15,3 +15,14 @@
 
     border-radius: 25px;
   }
+
+  @media (min-width: 768px) {
+    .contentSide {
+      width:95%; 
+
+    }
+
+    .contentMiddle {
+      width:95%; 
+    }
+  }

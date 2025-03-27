@@ -13,7 +13,7 @@ const Header = ({path}) => {
       </Link>
       <b className={styles.nameLabel}>Fernando Vega</b>
 
-      <SocialLinks position={'-100vw'}/>
+      <SocialLinks className="header" position={'-100vw'}/>
     
     </header>
   );

@@ -12,7 +12,7 @@ const Footer = ({path}) => {
       <Logo srcPNG={LogoPhoto} srcGIF={LogoGIF}/>
       </Link>
       <b className={styles.nameLabel}>Fernando Vega</b>
-      <SocialLinks position={'100vw'}/>
+      <SocialLinks className="footer"position={'100vw'}/>
     </footer>
   );
 };

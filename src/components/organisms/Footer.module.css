@@ -17,3 +17,18 @@
     display: inline-block;
 
   }
+
+
+  
+  @media (max-width: 768px){
+
+    .footer{
+      flex-direction: column;
+      margin: 40px 60px 40px 60px;
+    }
+
+    .nameLabel{
+
+      margin: 40px 0px;
+    }
+}

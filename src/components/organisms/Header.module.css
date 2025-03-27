@@ -17,3 +17,20 @@
     display: inline-block;
 
   }
+
+    
+  @media (max-width: 768px){
+
+    .header {
+      gap:20px
+    }
+
+    .nameLabel{
+
+     margin-left: 0px;
+
+  
+    }
+
+
+}

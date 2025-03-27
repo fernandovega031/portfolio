@@ -1,5 +1,5 @@
 import ProfileInfo from "../molecules/ProfileInfo.jsx";
-import styles from "./Hero.module.css";
+
 
 const Hero = () => {
   return (

@@ -1,12 +1,13 @@
 import Icon from "../atoms/Icon";
-import styles from "./SocialLinks.module.css";
+
+import "./SocialLinks.css";
 import LinkedInPhoto from "../../assets/linkedin.png";
 import MailPhoto from "../../assets/mail.png";
 import BehancePhoto from "../../assets/behance.png";
 
-const SocialLinks = ({ position}) => {
+const SocialLinks = ({className, position}) => {
   return (
-    <div className={styles.IconContainerLine}>
+    <div  className={`IconContainerLine ${className}`}>
       <Icon src={LinkedInPhoto} 
       alt="LinkedIn" 
       websrc={'https://www.linkedin.com/in/fernandovega031'}

@@ -29,6 +29,8 @@ gap: 40px; /* Reduced for mobile */
     justify-items: center;
   }
 
+
+
   .hline { 
     width:95%; 
     height:2px; 
@@ -36,3 +38,15 @@ gap: 40px; /* Reduced for mobile */
     background: #000;
     border-radius: 5px;
    }
+
+
+   @media (max-width: 768px){
+
+    .hline { 
+      margin: 20px;
+      width: 75%;
+  
+      background: #000;
+      border-radius: 5px;
+     }
+}

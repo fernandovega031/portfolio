@@ -1,9 +1,10 @@
 import styles from "./Portfolio.module.css";
 import PortfolioContainer from "../atoms/PortfolioContainer.jsx";
-import TruckBurger from "../../assets/TruckBurgerFP.png";
+import TruckBurger from "../../assets/TruckBurger/Portfolio/Main.png";
 import MySpace from "../../assets/MySpaceFP.png";
-import ASLingo from "../../assets/ASLingoFP.png";
+import ASLingo from "../../assets/ASLingo/slide1.png";
 import Gallery from "../../assets/gallery.png";
+
 
 const Portfolio = () => {
     return (

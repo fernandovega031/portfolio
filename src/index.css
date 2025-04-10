@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: 'myFont';
-  src: url('./fonts/WorkSans.ttf') format('truetype');
+  src: url('././fonts/WorkSans.ttf') format('truetype');
 }
 
 * {

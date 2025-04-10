@@ -9,10 +9,10 @@ import Gallery from "../../assets/gallery.png";
 const Portfolio = () => {
     return (
       <section className={styles.portfolio}>
-        <PortfolioContainer path="/ASLingo" src={ASLingo} alt={"ASLingo's Portfolio"}/>
-        <PortfolioContainer path="/truckburger" src={TruckBurger} alt={"Truck Burger's Portfolio"}/>
-        <PortfolioContainer path="/myspace" src={MySpace} alt={"My Space's Portfolio"}/>
-        <PortfolioContainer path="/gallery" src={Gallery} alt={"My Gallery"}/>
+        <PortfolioContainer path="/ASLingo" projectName={"ASLingo"} projectDescription={"ASLingo is a web application that helps users learn American Sign Language (ASL) through interactive lessons and quizzes."} src={ASLingo} alt={"ASLingo's Portfolio"}/>
+        <PortfolioContainer path="/truckburger" projectName={"Truck Burger"} projectDescription={"Truck Burger is a web application that helps users order food from their favorite restaurante with a interactive touch"} src={TruckBurger} alt={"Truck Burger's Portfolio"}/>
+        <PortfolioContainer path="/myspace" projectName={"My Space"} projectDescription={"My Space is a web application that helps people find their ideal accomodation"} src={MySpace} alt={"My Space's Portfolio"}/>
+        <PortfolioContainer path="/gallery" projectName={"Gallery"} projectDescription={"If you would like to see my content just click on this"} src={Gallery} alt={"My Gallery"}/>
       </section>
     );
   };

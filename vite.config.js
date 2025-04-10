@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'justfernandosportfolio.site/portfolio',
+  base: 'justfernandosportfolio.site/',
   assetsInclude: ['**/*.JPG'],
   plugins: [react(),
   ],

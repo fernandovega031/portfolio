@@ -38,7 +38,7 @@ const Portfolio3Page = () => {
           <motion.img
             key={index}
             ref={ref}
-            src={img}
+            src={img}    
             alt="Portfolio Image"
             style={styles}
             initial={{ opacity: 0, y: 50 }}

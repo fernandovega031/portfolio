@@ -1,0 +1,26 @@
+
+
+.Nunitofont{
+
+    color: var(--Shades-White, #FFF);
+    text-shadow: -6px 3px 0px #000;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: var(--Shades-Black, #080708);
+    font-family: Nunito;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+.Bricolagefont{
+    color: #FFF;
+    text-shadow: -4px 6px 0px #000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

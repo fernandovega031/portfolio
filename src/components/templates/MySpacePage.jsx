@@ -12,6 +12,8 @@ import InfoArchi from "../../assets/MySpace/InfoArchi.png";
 import audit from "../../assets/MySpace/audit.png";
 import visual from "../../assets/MySpace/Visual.png";
 import wireframes from "../../assets/MySpace/Wire.png";
+import DesignSystem1 from "../../assets/MySpace/DesignSyspt1.png";
+import DesignSystem2 from "../../assets/MySpace/DesignSyspt2.png";
 import color from "../../assets/MySpace/Color.png";
 import typo from "../../assets/MySpace/Typo.png";
 import outcomes from "../../assets/MySpace/outcomes.png";
@@ -22,7 +24,7 @@ const styles = { width: "100%" };
 const Portfolio2Page = () => {
   const images = [
     main, story1, story2, overview, goal, color, typo,
-    persona, priya, carlos, InfoArchi, audit, wireframes, visual, outcomes, lesson
+    persona, priya, carlos, InfoArchi, audit, wireframes, DesignSystem1, DesignSystem2, visual, outcomes, lesson
   ];
 
   return (
